@@ -7,7 +7,7 @@ const Card = ({children,reverse}) => {
   return (
     <div className="card" 
     style={{background: reverse ? "black":"white",
-        color: reverse ? "white" : "black",
+        color: reverse ? "white" : " black",
         border:reverse ? "1px solid rgba(255, 255, 255, 0.306)" : "none"
     }}>
       {children}
@@ -15,11 +15,9 @@ const Card = ({children,reverse}) => {
   )
 }
 
-Card.defaultProps = {
-    reverse :true
-}
+
 Card.propType = {
-    children :PropTypes.node,
-    reverse :PropTypes.bool,
+    children :PropTypes.node.isRequired,
+    reverse :PropTypes.bool.isRequired,
 }
 export default Card;

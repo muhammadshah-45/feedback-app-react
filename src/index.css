@@ -12,9 +12,7 @@ body {
     color: #fff;
     line-height: 1.6;
 }
-header{
 
-}
 
 ul {
   list-style: none;
@@ -24,6 +22,7 @@ ul {
     max-width: 768px;
     margin: auto;
     padding: 0 20px;
+    position: relative;
 }
 h2{
     border: 2px solid white;
@@ -135,6 +134,7 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 43px;
 }
 
 .num-display {
@@ -153,10 +153,25 @@ input:focus {
   border: none;
 }
 
+.btn-dev{
+  
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 3px;
+  width: 17px;
+  padding-top:2px ;
+  
+}
+
 .edit {
   right: 40px;
 }
 
+img{
+  width:70px;
+  border-radius: 5px;
+  margin: 3px 0;
+}
 .btn {
   color: #fff;
   border: 0;
