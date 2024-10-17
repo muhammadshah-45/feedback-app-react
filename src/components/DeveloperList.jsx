@@ -1,7 +1,7 @@
 import React from 'react'
 import DeveloperItem from './DeveloperItem'
 const DeveloperList = ({devData , deleteData}) => {
-  console.log(deleteData.id)
+  
    if(!devData || devData.length === 0){
     return <p>No card available yet</p>
    } 
